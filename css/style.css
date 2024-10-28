@@ -1,0 +1,17 @@
+body{
+    margin: 0px;
+    background-color: #487eb0;
+    color: white;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
