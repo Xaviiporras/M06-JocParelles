@@ -5,12 +5,32 @@ body{
 }
 
 header{
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-bottom: 7vw;
 }
 main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#divBotonesPartida{
+    display: flex;
+    width: 50vw;
+    justify-content: center;
+    margin-top: 3vw;
+}
+
+#divBotonesPartida > *{
+    margin-right: 1vw;
+}
+
+
+.divMain{
     display: flex;
     flex-direction: column;
     align-items: center;
