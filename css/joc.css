@@ -1,0 +1,46 @@
+body {
+    margin: 0px;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#div_MaximaPuntuacio {
+    display: flex;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+#grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    padding: 20px;
+    width: 22vw;
+    max-width: 400px; /* Añadir límite de ancho opcional */
+}
+
+.blue-button {
+    background-color: #007bff;
+    color: white;
+    font-size: 24px;
+    width: 5vw;   /* Ajustar estas unidades si es necesario */
+    height: 5vw;  /* Añadir altura para hacer el botón cuadrado */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.blue-button:focus {
+    outline: none;
+}
+
+#div_puntosActuales{
+    display: flex;
+}

@@ -3,11 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/joc.css">
     <title>Document</title>
 </head>
 <body>
-    <h1>hola</h1>
-    <p id="nom">hj</p>
+    <header>
+        <button id="instruccions">Mostra les instruccions</button>
+        <h1>La puntuació més alta</h1>
+        <div id="div_MaximaPuntuacio">
+            <p>JUGADOR: </p>
+            <p id="mejorJugador"> </p>
+            <p>PUNTS:</p>
+            <p id="mejorPuntuacion"> </p>
+        </div>
+        <h2 id="jugadorActual"></h2>
+        <div id="div_puntosActuales">
+            <p>Punts:</p>
+            <p id="puntosActuales">0</p>
+        </div>
+    </header>
+
+    <main>
+        <div id="grid-container"></div>
+    </main>
 
     <script src="./js/joc.js"></script>
 </body>
